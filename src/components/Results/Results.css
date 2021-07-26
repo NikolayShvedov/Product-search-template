@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900,900i&display=swap&subset=cyrillic');
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+.card_root {
+    max-width: 345px;
+    margin-top: 300px;
+    margin-left: 40px;
+    display: inline-flex;
+    min-width: 250px;
+}
+
+.card_media {
+    height: 80px;
+}
+
+.result_data {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.result_deg,
+.result_price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3F3631;
+}
+
+.result_deg {
+    float: left;
+}
+
+.result_price {
+    float: right;
+}
+
+.result_description {
+    overflow: hidden;
+    height: 60px;
+    text-overflow: ellipsis;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 145%;
+    text-align: center;
+    color: #9C8E76;
+}
+
+.result_img {
+    position: absolute;
+    width: 100px;
+    height: 310px;
+    transform: translate(125px, -240px);
+}
+
+.result_name {
+    height: 65px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #3F3631;
+    overflow: hidden;
+}
